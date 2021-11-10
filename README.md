@@ -1,4 +1,4 @@
-# Building an Interpreter from scratch
+# Building a Virtual Machine
 
 This is a repository for the [Building a Virtual Machine](http://dmitrysoshnikov.com/courses/virtual-machine/) course.
 
