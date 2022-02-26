@@ -190,7 +190,14 @@ class EvaVM {
     // Start from the main entry point:
     fn = compiler->getMainFunction();
 
-    // Implement here...
+    // Set instruction pointer to the beginning:
+    ip = &fn->co->code[0];
+
+    // Init the stack:
+    sp = &stack[0];
+
+    // Init the base (frame) pointer:
+    bp = sp;
 
     return eval();
   }
